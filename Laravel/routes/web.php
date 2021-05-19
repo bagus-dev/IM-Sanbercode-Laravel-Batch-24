@@ -14,3 +14,6 @@
 Route::get('/', 'HomeController@index');
 Route::get('/register', 'AuthController@register');
 Route::post('/welcome', 'AuthController@welcome');
+
+Route::get('/table', 'HomeController@table');
+Route::get('/data-table', 'HomeController@datatable');
