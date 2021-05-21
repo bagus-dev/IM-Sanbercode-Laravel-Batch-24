@@ -146,6 +146,10 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'nama' => 'Nama Pemeran',
+        'umur' => 'Umur Pemeran',
+        'bio' => 'Bio Pemeran'
+    ],
 
 ];
